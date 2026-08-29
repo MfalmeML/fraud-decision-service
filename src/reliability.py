@@ -5,6 +5,7 @@ Fallback logic, canary gate, version management.
 
 import json
 import os
+import re
 import time
 from datetime import datetime
 from typing import Dict, Tuple, Optional
@@ -150,6 +151,10 @@ class ThresholdTableManager:
         """
         Publish new threshold table. Runs canary gate if validation data provided.
         """
+        # Sanitize the version: it becomes part of the table filename, and Windows
+        # forbids <>:"/\|?* in filenames (e.g. colons from ISO timestamps).
+        version = re.sub(r'[<>:"/\\|?*]', '-', str(version))
+
         # Validate if we have historical data
         if historical_outcomes_file and fraud_ceiling is not None:
             if not self.backtest_validate(table, historical_outcomes_file, fraud_ceiling):
