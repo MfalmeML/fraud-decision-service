@@ -7,7 +7,7 @@ Monitors fraud-loss ceiling adherence and false-decline rate.
 import json
 import time
 import random
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Dict, List
 import sys
 import os
@@ -82,7 +82,7 @@ class PilotRollout:
                 self.metrics['false_declines'] += 1
         
         log_entry = {
-            'timestamp': datetime.utcnow().isoformat(),
+            'timestamp': datetime.now(timezone.utc).isoformat(),
             'transaction_id': tx.get('transaction_id'),
             'segment_key': seg_key,
             'is_pilot': is_pilot,
@@ -119,7 +119,8 @@ class PilotRollout:
         }
         self.manager.publish_table(
             pilot_table,
-            f"pilot-{datetime.utcnow().isoformat()}",
+            # Windows-safe version string: no colons (illegal in filenames), timezone-aware
+            f"pilot-{datetime.now(timezone.utc).strftime('%Y-%m-%dT%H-%M-%SZ')}",
             'data/sample_outcomes.json',
             self.fraud_ceiling
         )
@@ -148,7 +149,7 @@ class PilotRollout:
         self._print_final_report()
         
         # Save decision log
-        log_file = f"pilot_log_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.json"
+        log_file = f"pilot_log_{datetime.now(timezone.utc).strftime('%Y%m%d_%H%M%S')}.json"
         with open(log_file, 'w') as f:
             json.dump({
                 'metrics': self.metrics,
