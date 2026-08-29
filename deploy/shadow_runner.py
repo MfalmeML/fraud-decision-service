@@ -124,7 +124,7 @@ class ShadowRunner:
             'cs_challenge_cost': cs_challenge_cost,
             'total_fixed_cost': total_fixed_cost,
             'total_cs_cost': total_cs_cost,
-            'net_benefit': net_net_benefit,
+            'net_benefit': net_benefit,
             'decision_difference_rate': sum(1 for r in results if r['differs']) / len(results) if results else 0
         }
     
