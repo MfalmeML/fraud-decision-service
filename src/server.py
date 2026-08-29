@@ -5,11 +5,18 @@ Integrates decision engine, reliability, and outcome recording.
 
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import json
-from urllib.parse import urlparse, parse_qs
-from src.decision_engine import DecisionEngine
-from src.reliability import ThresholdTableManager
-from src.outcome_store import OutcomeStore
-from src.threshold_optimizer import ThresholdOptimizer
+from urllib.parse import urlparse, parse_qs, unquote
+try:
+    from src.decision_engine import DecisionEngine
+    from src.reliability import ThresholdTableManager
+    from src.outcome_store import OutcomeStore
+    from src.threshold_optimizer import ThresholdOptimizer
+except ImportError:
+    # Fallback when src/ itself is on sys.path (running as `python src\server.py`)
+    from decision_engine import DecisionEngine
+    from reliability import ThresholdTableManager
+    from outcome_store import OutcomeStore
+    from threshold_optimizer import ThresholdOptimizer
 
 class DecisionServer:
     def __init__(self):
@@ -113,7 +120,7 @@ class DecisionHandler(BaseHTTPRequestHandler):
         if parsed.path == '/health':
             self._send_json(200, {'status': 'ok', 'version': handler.manager.get_version()})
         elif parsed.path.startswith('/thresholds/'):
-            seg_key = parsed.path.split('/thresholds/')[1]
+            seg_key = unquote(parsed.path.split('/thresholds/')[1])
             result = handler.get_thresholds(seg_key)
             self._send_json(200, result)
         elif parsed.path.startswith('/outcome'):

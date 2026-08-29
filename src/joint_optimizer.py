@@ -6,8 +6,13 @@ Reallocates fraud-loss budget across segments.
 import json
 import itertools
 from typing import Dict, List, Tuple
-from src.threshold_optimizer import ThresholdOptimizer, CostModel
-from src.churn_model import RealCostModel, ChurnModel
+try:
+    from src.threshold_optimizer import ThresholdOptimizer, CostModel
+    from src.churn_model import RealCostModel, ChurnModel
+except ImportError:
+    # Fallback when src/ itself is on sys.path (bare-import style, as in outcome_api.py)
+    from threshold_optimizer import ThresholdOptimizer, CostModel
+    from churn_model import RealCostModel, ChurnModel
 
 class JointOptimizer:
     """
