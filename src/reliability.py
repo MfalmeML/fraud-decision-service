@@ -110,7 +110,11 @@ class ThresholdTableManager:
         Canary gate: replay candidate against historical data.
         Returns True if fraud loss stays within ceiling.
         """
-        from threshold_optimizer import ThresholdOptimizer
+        try:
+            from src.threshold_optimizer import ThresholdOptimizer
+        except ImportError:
+            # Fallback when src/ itself is on sys.path (bare-import style, as in outcome_api.py)
+            from threshold_optimizer import ThresholdOptimizer
         optimizer = ThresholdOptimizer()
         
         try:
