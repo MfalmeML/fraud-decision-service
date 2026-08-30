@@ -1,0 +1,1110 @@
+{
+  "metrics": {
+    "total_decisions": 150,
+    "fraud_loss": 977.8065911664794,
+    "false_declines": 0,
+    "ceiling_breaches": 0
+  },
+  "segment_metrics": {
+    "new|domestic": {
+      "decisions": 19,
+      "fraud_loss": 0.0,
+      "false_declines": 0,
+      "approvals": 8,
+      "challenges": 7,
+      "declines": 4
+    },
+    "new|cross_border": {
+      "decisions": 22,
+      "fraud_loss": 0.0,
+      "false_declines": 0,
+      "approvals": 10,
+      "challenges": 9,
+      "declines": 3
+    },
+    "established|domestic": {
+      "decisions": 60,
+      "fraud_loss": 977.8065911664794,
+      "false_declines": 0,
+      "approvals": 41,
+      "challenges": 13,
+      "declines": 6
+    },
+    "established|cross_border": {
+      "decisions": 19,
+      "fraud_loss": 0.0,
+      "false_declines": 0,
+      "approvals": 6,
+      "challenges": 10,
+      "declines": 3
+    },
+    "vip|domestic": {
+      "decisions": 14,
+      "fraud_loss": 0.0,
+      "false_declines": 0,
+      "approvals": 11,
+      "challenges": 3,
+      "declines": 0
+    },
+    "vip|cross_border": {
+      "decisions": 16,
+      "fraud_loss": 0.0,
+      "false_declines": 0,
+      "approvals": 12,
+      "challenges": 3,
+      "declines": 1
+    }
+  },
+  "decisions": [
+    {
+      "timestamp": "2026-08-29T12:35:17.745164",
+      "transaction_id": "full_tx_0000",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:17.907943",
+      "transaction_id": "full_tx_0001",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:18.038487",
+      "transaction_id": "full_tx_0002",
+      "segment_key": "vip|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:18.208633",
+      "transaction_id": "full_tx_0003",
+      "segment_key": "new|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:18.289514",
+      "transaction_id": "full_tx_0004",
+      "segment_key": "new|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:18.449150",
+      "transaction_id": "full_tx_0005",
+      "segment_key": "new|cross_border",
+      "decision": "DECLINE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:18.637685",
+      "transaction_id": "full_tx_0006",
+      "segment_key": "vip|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:18.816682",
+      "transaction_id": "full_tx_0007",
+      "segment_key": "established|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:18.877404",
+      "transaction_id": "full_tx_0008",
+      "segment_key": "established|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:18.951187",
+      "transaction_id": "full_tx_0009",
+      "segment_key": "new|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:19.054549",
+      "transaction_id": "full_tx_0010",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:19.222044",
+      "transaction_id": "full_tx_0011",
+      "segment_key": "new|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:19.400103",
+      "transaction_id": "full_tx_0012",
+      "segment_key": "new|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:19.518160",
+      "transaction_id": "full_tx_0013",
+      "segment_key": "new|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:19.715915",
+      "transaction_id": "full_tx_0014",
+      "segment_key": "established|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:19.842989",
+      "transaction_id": "full_tx_0015",
+      "segment_key": "new|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:19.994635",
+      "transaction_id": "full_tx_0016",
+      "segment_key": "new|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:20.191417",
+      "transaction_id": "full_tx_0017",
+      "segment_key": "established|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:20.311307",
+      "transaction_id": "full_tx_0018",
+      "segment_key": "vip|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:20.453026",
+      "transaction_id": "full_tx_0019",
+      "segment_key": "new|domestic",
+      "decision": "DECLINE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:20.571431",
+      "transaction_id": "full_tx_0020",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:20.693107",
+      "transaction_id": "full_tx_0021",
+      "segment_key": "established|domestic",
+      "decision": "DECLINE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:20.776201",
+      "transaction_id": "full_tx_0022",
+      "segment_key": "vip|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:20.842675",
+      "transaction_id": "full_tx_0023",
+      "segment_key": "vip|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:20.945583",
+      "transaction_id": "full_tx_0024",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:21.084343",
+      "transaction_id": "full_tx_0025",
+      "segment_key": "established|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:21.188528",
+      "transaction_id": "full_tx_0026",
+      "segment_key": "vip|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:21.368581",
+      "transaction_id": "full_tx_0027",
+      "segment_key": "new|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:21.512543",
+      "transaction_id": "full_tx_0028",
+      "segment_key": "established|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:21.613568",
+      "transaction_id": "full_tx_0029",
+      "segment_key": "vip|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:21.794648",
+      "transaction_id": "full_tx_0030",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:21.866409",
+      "transaction_id": "full_tx_0031",
+      "segment_key": "new|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:22.055548",
+      "transaction_id": "full_tx_0032",
+      "segment_key": "established|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:22.220027",
+      "transaction_id": "full_tx_0033",
+      "segment_key": "new|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:22.377644",
+      "transaction_id": "full_tx_0034",
+      "segment_key": "established|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:22.482488",
+      "transaction_id": "full_tx_0035",
+      "segment_key": "established|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:22.639085",
+      "transaction_id": "full_tx_0036",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:22.769275",
+      "transaction_id": "full_tx_0037",
+      "segment_key": "established|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:22.890242",
+      "transaction_id": "full_tx_0038",
+      "segment_key": "vip|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:23.033296",
+      "transaction_id": "full_tx_0039",
+      "segment_key": "vip|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:23.085144",
+      "transaction_id": "full_tx_0040",
+      "segment_key": "established|domestic",
+      "decision": "DECLINE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:23.169435",
+      "transaction_id": "full_tx_0041",
+      "segment_key": "established|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:23.268594",
+      "transaction_id": "full_tx_0042",
+      "segment_key": "established|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:23.459519",
+      "transaction_id": "full_tx_0043",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:23.588446",
+      "transaction_id": "full_tx_0044",
+      "segment_key": "vip|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:23.756576",
+      "transaction_id": "full_tx_0045",
+      "segment_key": "new|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:23.897590",
+      "transaction_id": "full_tx_0046",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:23.977772",
+      "transaction_id": "full_tx_0047",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:24.111788",
+      "transaction_id": "full_tx_0048",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:24.291149",
+      "transaction_id": "full_tx_0049",
+      "segment_key": "vip|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:24.375091",
+      "transaction_id": "full_tx_0050",
+      "segment_key": "new|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:24.534621",
+      "transaction_id": "full_tx_0051",
+      "segment_key": "new|domestic",
+      "decision": "DECLINE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:24.728580",
+      "transaction_id": "full_tx_0052",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:24.912472",
+      "transaction_id": "full_tx_0053",
+      "segment_key": "established|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:25.048748",
+      "transaction_id": "full_tx_0054",
+      "segment_key": "vip|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:25.116123",
+      "transaction_id": "full_tx_0055",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:25.312011",
+      "transaction_id": "full_tx_0056",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:25.459832",
+      "transaction_id": "full_tx_0057",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:25.542453",
+      "transaction_id": "full_tx_0058",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:25.713304",
+      "transaction_id": "full_tx_0059",
+      "segment_key": "established|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:25.829189",
+      "transaction_id": "full_tx_0060",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:25.940725",
+      "transaction_id": "full_tx_0061",
+      "segment_key": "new|cross_border",
+      "decision": "DECLINE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:26.056130",
+      "transaction_id": "full_tx_0062",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:26.234433",
+      "transaction_id": "full_tx_0063",
+      "segment_key": "vip|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:26.299414",
+      "transaction_id": "full_tx_0064",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:26.401449",
+      "transaction_id": "full_tx_0065",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:26.532823",
+      "transaction_id": "full_tx_0066",
+      "segment_key": "established|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:26.595602",
+      "transaction_id": "full_tx_0067",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:26.721896",
+      "transaction_id": "full_tx_0068",
+      "segment_key": "new|domestic",
+      "decision": "DECLINE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:26.793613",
+      "transaction_id": "full_tx_0069",
+      "segment_key": "new|domestic",
+      "decision": "DECLINE",
+      "fraud_loss": 0.0
+    },
+    {
+      "timestamp": "2026-08-29T12:35:26.968225",
+      "transaction_id": "full_tx_0070",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:27.094022",
+      "transaction_id": "full_tx_0071",
+      "segment_key": "established|domestic",
+      "decision": "DECLINE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:27.152293",
+      "transaction_id": "full_tx_0072",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:27.273213",
+      "transaction_id": "full_tx_0073",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:27.412542",
+      "transaction_id": "full_tx_0074",
+      "segment_key": "vip|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:27.559515",
+      "transaction_id": "full_tx_0075",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:27.668009",
+      "transaction_id": "full_tx_0076",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:27.863326",
+      "transaction_id": "full_tx_0077",
+      "segment_key": "new|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:28.047384",
+      "transaction_id": "full_tx_0078",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:28.105596",
+      "transaction_id": "full_tx_0079",
+      "segment_key": "established|domestic",
+      "decision": "DECLINE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:28.207431",
+      "transaction_id": "full_tx_0080",
+      "segment_key": "established|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:28.389163",
+      "transaction_id": "full_tx_0081",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:28.565554",
+      "transaction_id": "full_tx_0082",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:28.632096",
+      "transaction_id": "full_tx_0083",
+      "segment_key": "new|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:28.686315",
+      "transaction_id": "full_tx_0084",
+      "segment_key": "vip|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:28.886667",
+      "transaction_id": "full_tx_0085",
+      "segment_key": "established|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:29.003911",
+      "transaction_id": "full_tx_0086",
+      "segment_key": "vip|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:29.138253",
+      "transaction_id": "full_tx_0087",
+      "segment_key": "new|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:29.242728",
+      "transaction_id": "full_tx_0088",
+      "segment_key": "new|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:29.351023",
+      "transaction_id": "full_tx_0089",
+      "segment_key": "new|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:29.418716",
+      "transaction_id": "full_tx_0090",
+      "segment_key": "new|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:29.520263",
+      "transaction_id": "full_tx_0091",
+      "segment_key": "vip|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:29.672495",
+      "transaction_id": "full_tx_0092",
+      "segment_key": "new|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:29.833189",
+      "transaction_id": "full_tx_0093",
+      "segment_key": "vip|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:29.926718",
+      "transaction_id": "full_tx_0094",
+      "segment_key": "vip|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:29.978914",
+      "transaction_id": "full_tx_0095",
+      "segment_key": "vip|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:30.153858",
+      "transaction_id": "full_tx_0096",
+      "segment_key": "vip|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:30.298955",
+      "transaction_id": "full_tx_0097",
+      "segment_key": "established|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:30.485528",
+      "transaction_id": "full_tx_0098",
+      "segment_key": "established|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:30.672651",
+      "transaction_id": "full_tx_0099",
+      "segment_key": "vip|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:30.762185",
+      "transaction_id": "full_tx_0100",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:30.898273",
+      "transaction_id": "full_tx_0101",
+      "segment_key": "new|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:31.084296",
+      "transaction_id": "full_tx_0102",
+      "segment_key": "vip|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:31.275861",
+      "transaction_id": "full_tx_0103",
+      "segment_key": "established|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:31.438947",
+      "transaction_id": "full_tx_0104",
+      "segment_key": "established|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:31.590947",
+      "transaction_id": "full_tx_0105",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:31.674053",
+      "transaction_id": "full_tx_0106",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:31.805651",
+      "transaction_id": "full_tx_0107",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:31.951289",
+      "transaction_id": "full_tx_0108",
+      "segment_key": "vip|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:32.066327",
+      "transaction_id": "full_tx_0109",
+      "segment_key": "new|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:32.238297",
+      "transaction_id": "full_tx_0110",
+      "segment_key": "new|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:32.382831",
+      "transaction_id": "full_tx_0111",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:32.524777",
+      "transaction_id": "full_tx_0112",
+      "segment_key": "new|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:32.579730",
+      "transaction_id": "full_tx_0113",
+      "segment_key": "new|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:32.754331",
+      "transaction_id": "full_tx_0114",
+      "segment_key": "new|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:32.868052",
+      "transaction_id": "full_tx_0115",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:33.055254",
+      "transaction_id": "full_tx_0116",
+      "segment_key": "new|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:33.218432",
+      "transaction_id": "full_tx_0117",
+      "segment_key": "established|cross_border",
+      "decision": "DECLINE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:33.354918",
+      "transaction_id": "full_tx_0118",
+      "segment_key": "new|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:33.424262",
+      "transaction_id": "full_tx_0119",
+      "segment_key": "new|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 128.15502136390364
+    },
+    {
+      "timestamp": "2026-08-29T12:35:33.532328",
+      "transaction_id": "full_tx_0120",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:33.669089",
+      "transaction_id": "full_tx_0121",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:33.845002",
+      "transaction_id": "full_tx_0122",
+      "segment_key": "established|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:33.947961",
+      "transaction_id": "full_tx_0123",
+      "segment_key": "vip|cross_border",
+      "decision": "DECLINE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:34.015952",
+      "transaction_id": "full_tx_0124",
+      "segment_key": "vip|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:34.159879",
+      "transaction_id": "full_tx_0125",
+      "segment_key": "established|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:34.305416",
+      "transaction_id": "full_tx_0126",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:34.398507",
+      "transaction_id": "full_tx_0127",
+      "segment_key": "new|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:34.559797",
+      "transaction_id": "full_tx_0128",
+      "segment_key": "established|cross_border",
+      "decision": "DECLINE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:34.649120",
+      "transaction_id": "full_tx_0129",
+      "segment_key": "established|domestic",
+      "decision": "DECLINE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:34.753832",
+      "transaction_id": "full_tx_0130",
+      "segment_key": "vip|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:34.833897",
+      "transaction_id": "full_tx_0131",
+      "segment_key": "new|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:35.034869",
+      "transaction_id": "full_tx_0132",
+      "segment_key": "established|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:35.102570",
+      "transaction_id": "full_tx_0133",
+      "segment_key": "established|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:35.295080",
+      "transaction_id": "full_tx_0134",
+      "segment_key": "vip|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:35.400900",
+      "transaction_id": "full_tx_0135",
+      "segment_key": "established|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:35.567715",
+      "transaction_id": "full_tx_0136",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:35.746202",
+      "transaction_id": "full_tx_0137",
+      "segment_key": "vip|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:35.870431",
+      "transaction_id": "full_tx_0138",
+      "segment_key": "new|cross_border",
+      "decision": "DECLINE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:36.060116",
+      "transaction_id": "full_tx_0139",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:36.233518",
+      "transaction_id": "full_tx_0140",
+      "segment_key": "new|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:36.325508",
+      "transaction_id": "full_tx_0141",
+      "segment_key": "established|cross_border",
+      "decision": "DECLINE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:36.430314",
+      "transaction_id": "full_tx_0142",
+      "segment_key": "established|domestic",
+      "decision": "APPROVE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:36.574623",
+      "transaction_id": "full_tx_0143",
+      "segment_key": "vip|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:36.773638",
+      "transaction_id": "full_tx_0144",
+      "segment_key": "established|domestic",
+      "decision": "CHALLENGE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:36.966074",
+      "transaction_id": "full_tx_0145",
+      "segment_key": "established|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:37.139463",
+      "transaction_id": "full_tx_0146",
+      "segment_key": "new|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:37.271839",
+      "transaction_id": "full_tx_0147",
+      "segment_key": "new|cross_border",
+      "decision": "APPROVE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:37.342987",
+      "transaction_id": "full_tx_0148",
+      "segment_key": "established|domestic",
+      "decision": "DECLINE",
+      "fraud_loss": 977.8065911664794
+    },
+    {
+      "timestamp": "2026-08-29T12:35:37.524062",
+      "transaction_id": "full_tx_0149",
+      "segment_key": "established|cross_border",
+      "decision": "CHALLENGE",
+      "fraud_loss": 977.8065911664794
+    }
+  ]
+}
